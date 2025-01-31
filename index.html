@@ -5,58 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="webthemez">
-    <title>Cloud-Hosting-Free-Bootstrap-Responsive-Webiste-Template</title>
+    <title>今其智乃反不能及！</title>
+
 	<!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/animate.min.css" rel="stylesheet"> 
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->   
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="images/ico/favicon.ico"> 
 </head> 
+
+<style>
+    .circle {
+    width: 150px; /* 圓的寬度 */
+    height: 150px; /* 圓的高度 */
+    border-radius: 50%; /* 使圖片變成圓形 */
+    overflow: hidden; /* 隱藏超出圓形的部分 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: flex-start; /* 垂直對齊到頂部 */
+}
+
+.circle img {
+    width: 100%; /* 確保圖片填滿圓形 */
+    max-width: 100%;  /* 確保圖片不會超出容器 */
+    height: auto; /* 保持圖片比例 */
+}
+
+.comment-box {
+    display: flex;
+    border: 1px solid #6c757d; /* Bootstrap's secondary color */
+    flex-direction: column;
+    border-radius: 15px; /* Adjust the value for more or less rounded corners */
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f8f9fa; /* Optional: light background for better contrast */
+
+}
+
+.comment-content {
+    text-align: center;
+}
+
+.comment-score {
+    text-align: center;
+    font-style: italic;
+    margin-top: auto;
+}
+</style>
 
 <body id="home">
 
     <header id="header">
         <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
             <div class="container">
+                <!-- Navbar Header with Brand and Toggle Button -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="logo" style="height: 30px;">
+                    </a>
                 </div>
-				
-                <div class="collapse navbar-collapse navbar-right">
+    
+                <!-- Centered Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home</a></li> 
-						<li class="scroll"><a href="#features">Features</a></li>
-                        <li class="scroll"><a href="#services">Services</a></li>
-                        <li class="scroll"><a href="#about">About</a></li> 
-                        <li class="scroll"><a href="#pricing">Pricing</a></li>
-                        <li class="scroll"><a href="#our-team">Team</a></li>
-                        <li class="scroll"><a href="#contact-us">Contact</a></li>                        
+                        <li class="active"><a href="#home">Home</a></li> 
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li> 
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#our-team">Team</a></li>
+                        <li><a href="#contact-us">Contact</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
     </header><!--/header-->
-
     <section id="hero-banner">
              <div class="banner-inner">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
                                  
-                                    <h2><b>Cloud</b> Unlimited Web Hosting</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici <br/> Praesent eget risus.</p>
+                                    <h2>Chino 智乃</h2>
+                                    <p>HKDSE ICT & Econ Tutor | LoveLiver</p>
                                     <a class="btn btn-primary btn-lg" href="#">Start Now</a>
                                 
                             </div>
@@ -65,141 +112,285 @@
                 </div>
     </section><!--/#main-slider-->
      <section id="features">
-	 <div class="container">
-	   <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Our Features</h2>
-                <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+	 
+        <div class="container">
+	        <div class="section-header">
+                <h2 class="section-title wow fadeInDown">HKDSE ICT 必修部分 精讀筆記</h2>
+                <p class="wow fadeInDown">為 2025 DSE 或以後新制課程而設的中英對照精讀筆記！</p>
+        </div>
+
+        <div class="row FeatLayout text-center">
+        
+            <h2>你遇到以下的問題嗎？</h2>
+            <div class="col-md-4">
+                <div class="media service-box">
+                    
+                </div>
+                <p>對著家中八本的必修部分教科書，不知從何讀起......</p>
             </div>
-	 <div class="row FeatLayout">
-<div class="col-md-5 Featimg"> <img src="images/features_img.png" alt="feature" class="img-responsive center-block"></div>
-<div class="col-md-7">
-<h2>We Make your life easy</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p>
-<ul class="listarrow">
-<li><i class="fa fa-angle-double-right"></i>Special Domain</li>
-<li><i class="fa fa-angle-double-right"></i>Web Builder</li>
-<li><i class="fa fa-angle-double-right"></i>cPanel Access</li>
-<li><i class="fa fa-angle-double-right"></i>MySQL Databases</li>
-<li><i class="fa fa-angle-double-right"></i>Unlimited Bandwidth</li>
-<li><i class="fa fa-angle-double-right"></i>Web Secutity</li>
-</ul>
-</div>
-</div>
-	 </div>
+           
+            <div class="col-md-4">
+                <div class="media service-box">
+
+                </div>
+                <p>在這八本教科書中，哪裏才是考試重點？</p>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="media service-box">
+
+                </div>
+                <p>面對全新的DSE ICT課程，想了解更多新課題的溫習方向......</p>
+            </div>
+
+        </div>
+	    
+        <div class="row text-center">
+            <p>
+                <h4>智乃的DSE ICT 精讀筆記，將會幫助你解決以上問題！</h4></p>
+        </div>
+
+        </div>
+
 	 </section>
- <section id="services" >
+
+ <section id="ict notes feature">
         <div class="container">
 
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Best Hosting Service for You</h2>
-                <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <h2 class="section-title wow fadeInDown">筆記特色</h2>
             </div>
 
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-futbol-o"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Hosting</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
+            <div class="row features">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="bi bi-bookmark-fill"></i>
                         </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-compass"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Special Hosting</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">內容精準</h4>
+                            <p>參考歷屆試題及評卷參考而編寫，每年更新，貼近考評要求</p>
                         </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-database"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Web Builder</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-                            </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="bi bi-journal-check"></i>
                         </div>
-                    </div><!--/.col-md-4-->
-                
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bar-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">cPanel Access</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">便於閱讀</h4>
+                            <p>內容以點列式 / 表格為主，方便閲讀 / 溫習 / 背誦</p>
                         </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-paper-plane-o"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Windows</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-                            </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="bi bi-star-fill"></i>
                         </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bullseye"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">MySQL</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-                            </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">戰績豐富</h4>
+                            <p>過去兩年，不少同學表示這份筆記有助他們找出考核重點，奪取佳績</p>
                         </div>
-                    </div><!--/.col-md-4-->
-                </div>
-            </div><!--/.row-->    
-        </div><!--/.container-->
+                    </div>
+                </div><!--/.col-md-4-->
+            </div><!--/.row-->        </div><!--/.container-->
     </section><!--/#services-->
 
   
- <section id="about">
+    <section id="ict notes sample">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">筆記樣本</h2>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h5>彩色典藏版</h5>
+                    <a class="btn btn-primary" href="https://www.instagram.com/2021_yuraemoe/"> Part 1 樣本</a>
+                    <a class="btn btn-primary" href="https://www.instagram.com/ict.econ.dse.chino/"> Part 2 樣本</a>
+
+                </div>
+                <div class="col-md-6">
+                    <h5>單色標準版</h5>
+                    <a class="btn btn-primary" href="https://www.instagram.com/2021_yuraemoe/"> Part 1 樣本</a>
+                    <a class="btn btn-primary" href="https://www.instagram.com/ict.econ.dse.chino/"> Part 2 樣本</a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="ict notes comments" style="padding: 5%;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">考生評價</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 d-flex">
+                    <div class="comment-box flex-fill"> <!-- adjusted through css style --> 
+                        <p class="comment-content">
+                            btw 真係要多謝你份notes<br>
+                            唔係真係無**
+                        </p>
+                        <p class="comment-score">
+                            5** in 2023
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 d-flex">
+                    <div class="comment-box flex-fill">
+                        <p class="comment-content">
+                            many thanks for your note<br>
+                            來自一位學校pre 3然後靠willis同你份note攞5*嘅無名小卒
+                        </p>
+                        <p class="comment-score">
+                            5* in 2023
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex">
+                    <div class="comment-box flex-fill">
+                        <p class="comment-content">
+                            真係正，全靠你份notes攞5，好多題都考你份notes答
+                        </p>
+                        <p class="comment-score">
+                            5* (after remarking) in 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-4 d-flex">
+                    <div class="comment-box flex-fill">
+                        <p class="comment-content">
+                            智乃嘅（筆記）極之有效，我覺得by topic收集marking scheme真係好大幫助
+                        </p>
+                        <p class="comment-score">
+                            5* in 2024
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex">
+                    <div class="comment-box flex-fill">
+                        <p class="comment-content">
+                            btw 我今年溫ict係完全靠你份notes<br>
+                            冇諗過可以召喚到你出嚟<br>
+                            唔係你嘅話我應該未必可以有5<br>
+                            多謝你🙏🙏🙏🙏
+                        </p>
+                        <p class="comment-score">
+                            5 in 2024
+                        </p>   
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 d-flex">
+                    <div class="comment-box flex-fill">
+                        <p class="comment-content">
+                            我啱啱check咗Willis嗰個MC，我40題啱咗35題!!!￼<br>
+                            謝謝你￼<br>
+                            雖然我錯晒啲低能嘢🥲￼<br>
+                            我絕對會留返你兩本嘢的！！！ <br>
+                            冇咗你兩本嘢，我都唔知點溫書 <br>
+                        </p>
+                            
+                            <p class="comment-score">
+                                5* in 2024
+                            </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ict notes purchase">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">購買方式</h2>
+            </div>
+
+            <div>
+                <p>有興趣購買筆記？請填寫以下表格，我們將會盡快與你聯絡！</p>
+                <form id="purchase-form" name="purchase-form" method="post" action="#">
+                    <div class="form-group
+            </div>
+        </div>
+
+ <section id="about me" style="padding: 5%;">
         <div class="container">
 
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">About Us</h2>
-                <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <h2 class="section-title wow fadeInDown">About Me</h2>
             </div>
 
             <div class="row">
-                <div class="col-sm-6 wow fadeInLeft">
-                  <img class="img-responsive" src="images/about.png" alt="">
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <div class="circle mb-3">
+                        <img src="/images/2021_yuraemoe_image.png" alt="2021_yuraemoe image" class="img-fluid mx-auto d-block">
+                    </div> 
                 </div>
 
-                <div class="col-sm-6 wow fadeInRight">
-                    <h3 class="column-title">Our Company</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                <div class="col-md-8">
+                    <p> 
+                        <h3>Contact Details</h3>
+                        <a class="btn btn-primary" href="https://www.instagram.com/2021_yuraemoe/"> <i class="fab fa-instagram"></i> 日常 / LoveLive!</a>
+                        <a class="btn btn-primary" href="https://www.instagram.com/ict.econ.dse.chino/"> <i class="fab fa-instagram"></i> 補習</a>
 
-                    <p>Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec purus eu tellus consequat ultricies. Donec feugiat tempor turpis, rutrum sagittis mi venenatis at. Sed molestie lorem a blandit congue. Ut pellentesque odio quis leo volutpat, vitae vulputate felis condimentum. </p>
+                    </p>
 
-					<p>Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, velit arcu malesuada metus, in volutpat tellus sem at justo.</p>
+                    <p>
+                        <h3>Education</h3>
+                        <ul>
+                            <li>HKDSE Econ ICT 5**</li>
+                            <li>2021 HKDSE Best 5 30</li>
+                            <li>HKU BBA (Major: Accounting, Information Systems and Analytics)</li>
+                        </ul>
+                                
+                    </p>
+                    
+                    <p>
+                        <h3>My Experience</h3>
+                        <ul>
+                            <li><a href="https://www.hkaict.com/">HKAICT （香港ICT學苑）</a>創會成員</li>
+                            <li><a href="https://www.hkaict.com/courses/ict-mock-2023">2023 HKAICT 免費模擬考試</a> 擬卷者及評卷員，超過三百人報考</li>
+                            <li><a href="https://www.instagram.com/techgrade.ict/">TechGrade.ICT</a> 創始成員之一</li>
+                            <li>售出過百份 <a href="https://forms.gle/yqWg6tPZrEPgL1nL9">DSE ICT 精讀筆記</a> ，內容精要，貼近文憑試要求，大獲好評</li>
+                            <li>過去兩年，不少考生以此筆記作為重要溫習材料，協助他們在DSE ICT中取得Lv5，甚至奪星而回</li>
+                            <li>營運 <a href="https://www.instagram.com/2021_yuraemoe/">DSE Econ / ICT Instagram</a>，定期分享學科資訊，近二千人追蹤</li>
+                        </ul>
+                    </p>
 
-
-                    <a class="btn btn-primary" href="#">Learn More</a>
+                   
+                    <p>
+                    <h3>Skills</h3>
+                    <h5>Language</h5>
+                    <ul>
+                        <li>DSE 中文 Lv5 (卷一 閱讀能力：5*, 卷三 聆聽及綜合能力考核：5*)</li>
+                        <li>IELTS Overall Band 8.0</li>
+                        <li>Japanese Language Proficiency Test (JLPT) N4</li>
+                    </ul>
+                    <h5>Programming Language</h5>
+                    <ul>
+                        <li>Python, SQL, R, VBA</li>
+                    </ul>
+                    <h5>Certification</h5>
+                    <ul>
+                        <li>Microsoft Certified: Azure AI Fundamentals</li>
+                        <li>AWS Certified Cloud Practitioner</li>
+                    </ul>
 
                 </div>
+
             </div>
+
+           
         </div>
     </section><!--/#about-->
 
